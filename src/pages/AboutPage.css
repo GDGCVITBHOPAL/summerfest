@@ -1,0 +1,100 @@
+.about-page {
+    width: 100vw;
+    background-color: #F2C94C;
+}
+
+.about-section {
+    width: 70%;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 54px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-cols {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.about-flex {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about-section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* elements in left column should be pushed right */
+.about-flex:first-child .about-section-container {
+    justify-content: flex-end;
+}
+
+/* elements in right column should be pushed left */
+.about-flex:last-child .about-section-container {
+    justify-content: flex-start;
+}
+
+.about-img {
+    width: 40%;
+}
+
+/* Tablet */
+/* TODO: add media query for this. More spacing in center */
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .about-img {
+        width: 0;
+        height: 0;
+    }
+
+    .about-section {
+        width: 80%;
+    }
+
+    .about-cols {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-flex {
+        width: 100%;
+    }
+
+    .about-flex:last-child {
+        margin-top: 0;
+    }
+
+    .about-flex:first-child .about-section-container {
+        justify-content: center;
+    }
+    
+    .about-flex:last-child .about-section-container {
+        justify-content: center;
+    }
+}

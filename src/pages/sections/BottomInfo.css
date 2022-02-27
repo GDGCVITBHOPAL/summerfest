@@ -1,0 +1,61 @@
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.bottom-container div {
+    font-family: Poppins;
+    font-style: normal;
+}
+
+#make-impact {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    /* color: #000000; */
+}
+
+#legal a, #legal a:visited {
+    text-decoration: none;
+    color: #25262A;
+}
+
+#legal a:hover {
+    opacity: 0.6;
+}
+
+#legal {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* color: #000000; */
+}
+
+.MuiButtonBase-root.MuiFab-root.home-button {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #F2C94C;
+    padding: 10px 50px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: none;
+    text-transform: none;
+}
+
+.MuiButtonBase-root.MuiFab-root.home-button:hover {
+    background: #ffd659;
+}
+
+#shadow {
+    width: 451px;
+    height: 70px;
+    background: radial-gradient(50% 50% at 50% 50%, #6B6D72 0%, rgba(107, 109, 114, 0) 100%);
+    opacity: 0.1;
+    margin-top: 100px;
+}

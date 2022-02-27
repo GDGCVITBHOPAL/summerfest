@@ -1,0 +1,63 @@
+.dark-sections {
+    background-color: #25262A;
+    color: #F5F4F1;
+}
+
+.light-sections {
+    background-color: #F5F4F1;
+    color: #25262A;
+}
+
+.section {
+    margin: 10vh 0 10vh 0;
+}
+
+.section:last-child {
+    margin-bottom: 5vh;
+}
+
+.section-page-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.section-content-container {
+    width: 70vw;
+    margin-top: 10vh;
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 5vh;
+}
+
+.colorfuls {
+    height: 300px;
+    background-repeat: repeat-x;
+    margin-top: -20em;
+}
+
+.spookys {
+    height: 300px;
+    background-repeat: repeat-x;
+    margin-top: -140px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .spookys {
+        height: 300px;
+        background-repeat: repeat-x;
+        margin-top: -70px;
+    }
+}
+
+/* TODO: REMOVE THIS ONCE FILLED WITH ACTUAL CONTENT */
+.section-filler {
+    color: #F5F4F1;
+    height: 50vh;
+    border: 1px solid #F5F4F1;
+}

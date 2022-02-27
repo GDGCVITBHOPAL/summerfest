@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+.vscode/
+dist/
+tmp/
+.idea/
+.DS_Store
+.yarn

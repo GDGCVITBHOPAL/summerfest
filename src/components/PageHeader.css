@@ -1,0 +1,35 @@
+.header-section {
+    font-size: 20px;
+    color: #6B6D72;
+    margin: 20px 40px;
+}
+
+.header-title {
+    float: left;
+    padding-top: 15px;
+}
+
+.icon-section {
+    float: right;
+    margin-right: 120px;
+    padding-top: 15px;
+}
+
+.social-icon {
+    padding: 0 15px;
+}
+
+a, a:visited {
+    color: #6B6D72;
+}
+
+a:hover {
+    color: #25262A;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .social-icon {
+        padding: 0 10px;
+    }
+}

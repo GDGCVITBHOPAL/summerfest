@@ -1,0 +1,46 @@
+.sponsors-header{
+    /* display: flex; */
+    color: black;
+    font-size: 35px;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.sponsors-subheader{
+
+}
+
+img.ball-img{
+    height: auto;
+    width: 50;
+    margin-top: -178px;
+}
+
+img.ball2-img{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+
+img.sponsors-img{
+    height: auto;
+    width: auto;
+    margin-top: 0px;
+}
+
+.sponsors-content-container{
+    margin-top: 1cm;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.space{
+    margin-top: 1cm;
+}
+
+.float{
+    flex: 1;
+    border: 2px solid yellow;
+}

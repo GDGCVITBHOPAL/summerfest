@@ -1,0 +1,120 @@
+.track-container {
+    display: flex;
+    padding: 5vh 0;
+}
+
+.track-image {
+    margin-right: 70px;
+    object-fit: contain;
+    width: 300px;
+    height: 100%;
+}
+
+.track2-image {
+    margin-bottom: 30px;
+}
+
+.track3-image {
+    width: 200px;
+}
+
+h1.track-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+p.track-contents{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*** Swiper CSS for Tracks***/
+.tracks .slider-navigation {
+    left-margin: auto;
+    right-margin: auto;
+    position: relative;
+    margin-bottom: 30vh;
+}
+
+.tracks .swiper-pagination-bullet.override {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px !important;
+    box-sizing: border-box;
+}
+
+.tracks .swiper-pagination-bullet.slide0 {
+    background-color: #8368EE;
+}
+
+.tracks .swiper-pagination-bullet-active{
+    border: 7px solid #F5F4F1;
+}
+
+.tracks .swiper-pagination-bullet.slide1 {
+    background-color: #54C68F;
+}
+
+.tracks .swiper-pagination-bullet.slide2 {
+    background-color: #FF6E5A;
+}
+
+.tracks .swiper-pagination-bullet.slide3 {
+    background-color: #4074E3;
+}
+
+.tracks .swiper-container {
+    text-align: left;
+}
+
+.tracks .swiper-slide-next {
+    opacity: 65%;
+}
+
+.tracks .swiper-slide-prev {
+    opacity: 65%;
+}
+
+.tracks .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -100px !important;
+}
+
+.tracks .swiper-container {
+    overflow: visible !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .track-container {
+        display: inherit;
+    }
+
+    .track-image {
+        margin-bottom: 15%;
+    }
+
+    .track-image {
+        margin-right: 0;
+        width: 250px;
+        height: 200px;
+    }
+
+    h1.track-title {
+        font-size: 17px;
+    }
+
+    p.track-contents{
+        font-size: 15px;
+    }
+
+    .swiper-pagination-bullet.override {
+        width: 28px;
+        height: 28px;
+    }
+
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+        bottom: -50px !important;
+    }
+}
