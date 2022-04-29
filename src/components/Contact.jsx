@@ -32,8 +32,8 @@ const Contact = () => {
                         <div className={"speaker-textbox"}>
                             <h1 className={"speaker-name"}>Ishika Kulkarni</h1>
                             <p className={"speaker-title"}>Community Lead, GDSC VITB</p>
-                            <a href='https://www.instagram.com/kulkarni.ishika/' style={{marginRight: "20px"}}><FiInstagram /></a>
-                            <a href=' https://www.linkedin.com/in/ishikakulkarni/'><FiLinkedin /></a>
+                            <a className={"social-icons-contact"} href='https://www.instagram.com/kulkarni.ishika/' style={{marginRight: "20px"}}><FiInstagram /></a>
+                            <a className={"social-icons-contact"}href=' https://www.linkedin.com/in/ishikakulkarni/'><FiLinkedin /></a>
                             
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const Contact = () => {
                         <div className={"speaker-textbox"}>
                             <h1 className={"speaker-name"}>Aman Sharma</h1>
                             <p className={"speaker-title"}>Technical Lead , GDSC<br /> VITB</p>
-                            <a href='https://www.instagram.com/iss_yo_aman/' style={{marginRight: "20px"}}><FiInstagram /></a>
-                            <a href='https://www.linkedin.com/in/amansharma2910/'><FiLinkedin /></a>
+                            <a className={"social-icons-contact"} href='https://www.instagram.com/iss_yo_aman/' style={{marginRight: "20px"}}><FiInstagram /></a>
+                            <a className={"social-icons-contact"} href='https://www.linkedin.com/in/amansharma2910/'><FiLinkedin /></a>
                         </div>
                     </div>
                 </SwiperSlide>

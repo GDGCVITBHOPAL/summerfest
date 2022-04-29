@@ -2,22 +2,6 @@ import React from 'react';
 import SwiperCore, { A11y, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './SpeakerSlider.css';
-import speaker0 from '../graphics/speaker-0.svg'
-import speaker1 from '../graphics/speaker-1.svg'
-import speaker2 from '../graphics/speaker-2.svg'
-import speaker3 from '../graphics/speaker-3.svg'
-import speaker4 from '../graphics/speaker-4.svg'
-import speaker5 from '../graphics/speaker-5.svg'
-import speaker6 from '../graphics/speaker-6.svg'
-import speaker8 from '../graphics/speaker-8.svg'
-import speaker9 from '../graphics/speaker-9.svg'
-import speaker10 from '../graphics/speaker-10.svg'
-import speaker11 from '../graphics/speaker-11.svg'
-import speaker12 from '../graphics/speaker-12.svg'
-import speaker13 from '../graphics/speaker-13.svg'
-import speaker14 from '../graphics/speaker-14.svg'
-import speaker15 from '../graphics/speaker-15.svg'
-import tom from '../graphics/tom.svg'
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
