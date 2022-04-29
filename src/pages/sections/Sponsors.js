@@ -4,6 +4,7 @@ import './Sponsors.css';
 import sponsors from './sponsors.png';
 import balls from './yellow-balls.png';
 import balls2 from './yellow2.png';
+import twitter from "../../graphics/twitter.png"
 
 function Sponsors(props) {
 
@@ -16,14 +17,14 @@ function Sponsors(props) {
 
                         <div className={"flex-left"}>
                             <img className={'ball-img'} src={balls} alt=''></img>
-                            <div className={'sponsors-header'}>Sponsors</div>
+                            <div className={'sponsors-header'}>Contact Us</div>
                             <div className = {'space'}></div>
-                            <div className={'sponsors-subheader'}>A huge thank you to all of our sponsors!</div>
+                            <div className={'sponsors-subheader'}>Lorem ipsum</div>
                             <img className={'ball2-img'} src={balls2} alt=''></img>
                         </div>
 
                         <div className={'flex-right'}>
-                            <img className={'sponsors-img'} src={sponsors} alt=''></img>
+                            <img className={'sponsors-img'} src={twitter} alt=''></img>
                         </div>
 
                     </div>

@@ -1,28 +1,12 @@
 import React from 'react';
-import SwiperCore, { A11y, Autoplay} from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import './SpeakerSlider.css';
-import speaker0 from '../graphics/speaker-0.svg'
-import speaker1 from '../graphics/speaker-1.svg'
-import speaker2 from '../graphics/speaker-2.svg'
-import speaker3 from '../graphics/speaker-3.svg'
-import speaker4 from '../graphics/speaker-4.svg'
-import speaker5 from '../graphics/speaker-5.svg'
-import speaker6 from '../graphics/speaker-6.svg'
-import speaker8 from '../graphics/speaker-8.svg'
-import speaker9 from '../graphics/speaker-9.svg'
-import speaker10 from '../graphics/speaker-10.svg'
-import speaker11 from '../graphics/speaker-11.svg'
-import speaker12 from '../graphics/speaker-12.svg'
-import speaker13 from '../graphics/speaker-13.svg'
-import speaker14 from '../graphics/speaker-14.svg'
-import speaker15 from '../graphics/speaker-15.svg'
-import tom from '../graphics/tom.svg'
-
-// Import Swiper styles
-import 'swiper/swiper.scss';
+import SwiperCore, { A11y, Autoplay } from 'swiper';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/swiper.scss';
+import './SpeakerSlider.css';
+
 
 // install Swiper components
 SwiperCore.use([A11y, Autoplay]);
@@ -56,20 +40,20 @@ function SpeakerSlider() {
             spaceBetween={30}
             breakpoints={{768: {slidesPerView: 3}, 1024: {slidesPerView: 4}, 1260: {slidesPerView: 5}, 1600: {slidesPerView: 6}}}
             //onSlideChange={changeCSS}
-            loop
+            
         >
             <SwiperSlide>
                 <div className={"speaker-container"}>
                     <div className={"speaker-imagebox"}>
-                        <img className={"speaker-image"} src={speaker0} alt="" />
+                        <img className={"speaker-image"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IeR5LKDXITI-gIJHD1Djb1CwLa9GYEdnCg&usqp=CAU" alt="" />
                     </div>
                     <div className={"speaker-textbox"}>
-                        <h1 className={"speaker-name"}>Brian Li</h1>
-                        <p className={"speaker-title"}>Co-Founder, Glimpse (YC W’20)</p>
+                        {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                        <p className={"speaker-title"}>Coming soon</p>
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <div className={"speaker-container"}>
                     <div className={"speaker-imagebox"}>
                         <img className={"speaker-image"} src={speaker1} alt="" />
@@ -233,7 +217,7 @@ function SpeakerSlider() {
                         <p className={"speaker-title"}>Engineering Director, Code for America</p>
                     </div>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
         </Swiper>
     )
 }
