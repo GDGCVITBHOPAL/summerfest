@@ -16,22 +16,24 @@ function FAQ(props) {
               {FaqsArr.map((faq, index) => {
                 if (index < FaqsArr.length / 2)
                   return (
-                    <div className="question">
+                    <div key={index} className="question">
                       <div>{faq.question}</div>
                       <div>{faq.answer}</div>
                     </div>
                   );
+                return null;
               })}
             </div>
             <div className={"questions-row"}>
               {FaqsArr.map((faq, index) => {
                 if (index >= FaqsArr.length / 2)
                   return (
-                    <div className="question">
+                    <div key={index} className="question">
                       <div>{faq.question}</div>
                       <div>{faq.answer}</div>
                     </div>
                   );
+                return null;
               })}
             </div>
           </div>
