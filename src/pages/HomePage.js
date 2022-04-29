@@ -15,6 +15,7 @@ function HomePage(props) {
                     <h3 className={"home-dates"}>May 5 - 6, 2022</h3>
                 </div>
                 {/* <a style={{textDecoration: "none" }}href="https://tinyurl.com/hd-hacker-guide" target="_blank" rel="noopener noreferrer"> */}
+                {/* Make clicking this scroll to register section */}
                     <Fab variant={"extended"} className={"home-button"}>Register Now!</Fab>
                 {/* </a> */}
             </div>
