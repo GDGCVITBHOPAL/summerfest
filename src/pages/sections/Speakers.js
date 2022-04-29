@@ -12,8 +12,6 @@ function Speakers(props) {
                 </div>
             </div>
         </div>
-      </div>
-    </div>
   );
 }
 
