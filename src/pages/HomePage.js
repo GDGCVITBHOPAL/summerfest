@@ -10,7 +10,7 @@ function HomePage(props) {
             <PageHeader/>
             <div className={"home-page"}>
                 <div>
-                    <h1 className={"home-title"}>Hack DSC</h1>
+                    <h1 className={"home-title"}>HackGDSC</h1>
                     <div className={"home-circle"}></div>
                     <h3 className={"home-dates"}>May 5 - 6, 2022</h3>
                 </div>
