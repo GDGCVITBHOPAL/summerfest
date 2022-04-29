@@ -1,15 +1,13 @@
-import React from 'react'
-import speaker0 from '../graphics/speaker-0.svg'
-import speaker1 from '../graphics/speaker-1.svg'
-import tom from '../graphics/tom.svg'
+import React from 'react';
+import { FiInstagram, FiLinkedin } from 'react-icons/fi';
 import SwiperCore, { A11y, Autoplay } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import './SpeakerSlider.css';
-import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-import {FiInstagram} from 'react-icons/fi'
-import {FiLinkedin} from 'react-icons/fi'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
+import speaker1 from '../graphics/speaker-1.svg';
+import tom from '../graphics/tom.svg';
+import './SpeakerSlider.css';
 SwiperCore.use([A11y, Autoplay]);
 const Contact = () => {
     return (

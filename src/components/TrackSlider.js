@@ -1,18 +1,17 @@
-import React , {useState} from 'react';
+import React from 'react';
+import SwiperCore, { A11y, Autoplay, Pagination } from 'swiper';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/swiper.scss';
 import tracks1 from '../graphics/tracks1.svg';
 import tracks2 from '../graphics/tracks2.svg';
 import tracks3 from '../graphics/tracks3.svg';
 import tracks4 from '../graphics/tracks4.svg';
-import SwiperCore, { Pagination, A11y, Autoplay} from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import './TrackSlider.css';
-import content from "./Tracks.json"
 
-// Import Swiper styles
-import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
-import 'swiper/components/pagination/pagination.scss';
-import 'swiper/components/scrollbar/scrollbar.scss';
 
 // install Swiper components
 SwiperCore.use([Pagination, A11y, Autoplay]);
