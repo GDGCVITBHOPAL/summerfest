@@ -13,11 +13,11 @@ import tracks4 from '../graphics/tracks4.svg';
 import './TrackSlider.css';
 
 
+
 // install Swiper components
 SwiperCore.use([Pagination, A11y, Autoplay]);
 
 function TrackSlider() {
-
     return (
         <Swiper
             updateOnWindowResize

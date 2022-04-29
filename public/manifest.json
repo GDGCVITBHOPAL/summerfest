@@ -1,9 +1,9 @@
 {
-  "short_name": "HackDuke",
-  "name": "HackDuke 2020",
+  "short_name": "HackGDSC",
+  "name": "HackGDSC 2020",
   "icons": [
     {
-      "src": "hackduke-favicon.png",
+      "src": "HackGDSC-favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     }

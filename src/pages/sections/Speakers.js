@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 import SpeakerSlider from "../../components/SpeakerSlider";
 
-
 function Speakers(props) {
-
     return (
         <div className={'section'}>
             <div className={'section-page-container'}>
@@ -14,7 +12,9 @@ function Speakers(props) {
                 </div>
             </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
 export default Speakers;
