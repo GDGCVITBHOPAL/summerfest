@@ -8,8 +8,8 @@ function Speakers(props) {
         <div className={'section'}>
             <div className={'section-page-container'}>
                 <div className={'section-content-container'}>
-                    <div className={'section-header'}>Speakers</div>
-                    <p className={'speaker-intro'}>HackDuke brings in industry leaders, startup founders, and other impressive humans for talks and workshops. Learn, grow, and get inspired.</p>
+                    <div className={'section-header'}>Sponsors</div>
+                    <p className={'speaker-intro'}>Coming soon</p>
                     <div className={"speakers"}><SpeakerSlider/></div>
                 </div>
             </div>

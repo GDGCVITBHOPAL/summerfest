@@ -56,20 +56,20 @@ function SpeakerSlider() {
             spaceBetween={30}
             breakpoints={{768: {slidesPerView: 3}, 1024: {slidesPerView: 4}, 1260: {slidesPerView: 5}, 1600: {slidesPerView: 6}}}
             //onSlideChange={changeCSS}
-            loop
+            
         >
             <SwiperSlide>
                 <div className={"speaker-container"}>
                     <div className={"speaker-imagebox"}>
-                        <img className={"speaker-image"} src={speaker0} alt="" />
+                        <img className={"speaker-image"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IeR5LKDXITI-gIJHD1Djb1CwLa9GYEdnCg&usqp=CAU" alt="" />
                     </div>
                     <div className={"speaker-textbox"}>
-                        <h1 className={"speaker-name"}>Brian Li</h1>
-                        <p className={"speaker-title"}>Co-Founder, Glimpse (YC W’20)</p>
+                        {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                        <p className={"speaker-title"}>Coming soon</p>
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
                 <div className={"speaker-container"}>
                     <div className={"speaker-imagebox"}>
                         <img className={"speaker-image"} src={speaker1} alt="" />
@@ -233,7 +233,7 @@ function SpeakerSlider() {
                         <p className={"speaker-title"}>Engineering Director, Code for America</p>
                     </div>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
         </Swiper>
     )
 }

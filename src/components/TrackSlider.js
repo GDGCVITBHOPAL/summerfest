@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import tracks1 from '../graphics/tracks1.svg';
 import tracks2 from '../graphics/tracks2.svg';
 import tracks3 from '../graphics/tracks3.svg';
@@ -6,6 +6,7 @@ import tracks4 from '../graphics/tracks4.svg';
 import SwiperCore, { Pagination, A11y, Autoplay} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './TrackSlider.css';
+import content from "./Tracks.json"
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -35,15 +36,16 @@ function TrackSlider() {
             }}
         >
             <SwiperSlide>
-                <div className={"track-container"}>
+                    <div className={"track-container"}>
                     <div className={"track-imagebox"}>
                         <img className={"track-image track1-image"} src={tracks1} alt="" />
                     </div>
                     <div className={"track-textbox"}>
-                        <h1 className={"track-title"}>Inequality</h1>
-                        <p className={"track-contents"}>The Inequality track targets problems regarding both social and economic inequality. Whether it is creating solutions to bridge the income gap, or finding ways to reduce disparities in gender or race, this track is built on the principle that everyone should have the capacity to reach their full potential.</p>
+                        <h1 className={"track-title"}>Machine Learning</h1>
+                        <p className={"track-contents"}>The Energy and Environment track encompasses a technical perspective to deal with large issues impacting energy use, allocation and environmental regulations. This track has many applications, including machine learning for resource extraction, the use of green energy and enforcing environmental policy.</p>
                     </div>
                 </div>
+                
             </SwiperSlide>
             <SwiperSlide>
                 <div className={"track-container"}>
@@ -51,7 +53,7 @@ function TrackSlider() {
                         <img className={"track-image track2-image"} src={tracks2} alt="" />
                     </div>
                     <div className={"track-textbox"}>
-                        <h1 className={"track-title"}>Energy and Environment</h1>
+                        <h1 className={"track-title"}>Web</h1>
                         <p className={"track-contents"}>The Energy and Environment track encompasses a technical perspective to deal with large issues impacting energy use, allocation and environmental regulations. This track has many applications, including machine learning for resource extraction, the use of green energy and enforcing environmental policy.</p>
                     </div>
                 </div>
@@ -62,7 +64,7 @@ function TrackSlider() {
                         <img className={"track-image track3-image"} src={tracks3} alt="" />
                     </div>
                     <div className={"track-textbox"}>
-                        <h1 className={"track-title"}>Health</h1>
+                        <h1 className={"track-title"}>Open Innovation</h1>
                         <p className={"track-contents"}>The Health track allows hackers to work with various kinds of health related data, as well as connect with mentors from the intersection of health and technology. More than ever, technology today is in a prime position to improve the quality, efficiency, and accessibility of health care.</p>
                     </div>
                 </div>
@@ -73,8 +75,30 @@ function TrackSlider() {
                         <img className={"track-image track4-image"} src={tracks4} alt="" />
                     </div>
                     <div className={"track-textbox"}>
-                        <h1 className={"track-title"}>Education</h1>
+                        <h1 className={"track-title"}>Mobile Development</h1>
                         <p className={"track-contents"}>The Education track pairs hackers with educators, reaching out to all levels of subjects and skills. In addition to HackDuke sponsored Education events, projects aim to increase visibility of technology and to introduce basic skills to the public.</p>
+                    </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className={"track-container"}>
+                    <div className={"track-imagebox"}>
+                        <img className={"track-image track2-image"} src={tracks2} alt="" />
+                    </div>
+                    <div className={"track-textbox"}>
+                        <h1 className={"track-title"}>Web 3</h1>
+                        <p className={"track-contents"}>The Energy and Environment track encompasses a technical perspective to deal with large issues impacting energy use, allocation and environmental regulations. This track has many applications, including machine learning for resource extraction, the use of green energy and enforcing environmental policy.</p>
+                    </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className={"track-container"}>
+                    <div className={"track-imagebox"}>
+                        <img className={"track-image track1-image"} src={tracks1} alt="" />
+                    </div>
+                    <div className={"track-textbox"}>
+                        <h1 className={"track-title"}>Game Development</h1>
+                        <p className={"track-contents"}>The Inequality track targets problems regarding both social and economic inequality. Whether it is creating solutions to bridge the income gap, or finding ways to reduce disparities in gender or race, this track is built on the principle that everyone should have the capacity to reach their full potential.</p>
                     </div>
                 </div>
             </SwiperSlide>

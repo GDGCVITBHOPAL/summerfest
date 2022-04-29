@@ -12,6 +12,8 @@ import colorfuls from '../graphics/colorfuls.svg';
 import spookys from '../graphics/transition.svg';
 import Speakers from "./sections/Speakers";
 import Sponsors from "./sections/Sponsors";
+import Contact from './sections/Contact';
+import ContactPage from './sections/Contact';
 
 function Sections(props) {
     return (
@@ -23,6 +25,7 @@ function Sections(props) {
                 <Tracks/>
                 <Speakers/>
                 {/* <Schedule/> */}
+                <ContactPage/>
                 <FAQ/>
             </div>
 
@@ -30,7 +33,7 @@ function Sections(props) {
             <div className='spookys' style={{ backgroundImage: `url(${spookys})` }}></div>
 
             <div className={'light-sections'}>
-            <Sponsors/>
+{/*             <Sponsors/> */}
                 <BottomInfo/>
             </div>
         </div>
