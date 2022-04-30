@@ -61,11 +61,12 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
   }
 
   .home-title {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .home-circle {
@@ -74,7 +75,11 @@
   }
 
   .home-dates {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 24px;
+  }
+  .home-timer div {
+    font-size: 0.9rem;
+    margin: 0 auto;
   }
 }
