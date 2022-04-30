@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 457.1 555.2" style="enable-background:new 0 0 457.1 555.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FCDD81;}
+	.st1{fill:#F2C94C;}
+	.st2{fill:#D6AC2C;}
+	.st3{fill:#8368EE;}
+	.st4{fill:url(#SVGID_1_);}
+	.st5{fill:#FF6E5A;}
+	.st6{fill:#54C68F;}
+</style>
+<g>
+	
+		<rect x="237.5" y="144.7" transform="matrix(0.9789 -0.2041 0.2041 0.9789 -25.6967 69.8439)" class="st0" width="176.5" height="29.5"/>
+	<polygon class="st1" points="278.1,99.2 453.8,62.5 411.3,127.4 235.6,164.1 	"/>
+	<path class="st2" d="M451.3,62.6l-42,65.2l5.9,28.1l41.9-65.8L451.3,62.6z"/>
+	<circle class="st3" cx="335.8" cy="31.5" r="31.5"/>
+	
+		<ellipse transform="matrix(0.9858 -0.1677 0.1677 0.9858 -13.876 58.0389)" class="st2" cx="336.7" cy="111.2" rx="30.8" ry="7.5"/>
+</g>
+<g>
+	<polygon class="st0" points="4.5,294.3 110.9,329.5 106.4,355 0,319.8 	"/>
+	<path class="st1" d="M103.6,272.6l106.4,31l-99.2,26L4.5,294.3L103.6,272.6z"/>
+	<polygon class="st2" points="110.9,329.5 210.1,303.5 205.5,329 106.4,355 	"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="207.6976" y1="182.4837" x2="-48.3987" y2="153.1096" gradientTransform="matrix(1 0 0 1 0 136.1754)">
+		<stop  offset="0" style="stop-color:#FF6E5A;stop-opacity:0.6"/>
+		<stop  offset="0.2388" style="stop-color:#E5E5E5;stop-opacity:0"/>
+		<stop  offset="0.6765" style="stop-color:#E3E3E3;stop-opacity:1.000000e-02"/>
+	</linearGradient>
+	<path class="st4" d="M133.1,262.9c61.6,26.5,70.7,69.6,82.3,103l-28.1,9.8c-9.8-28.1-27.2-75.8-63-89.3
+		c-47.1-17.7-31.6-14.4-92.1-14.4v-25.5C91.6,246.6,71.5,236.4,133.1,262.9z"/>
+	<circle class="st5" cx="200.7" cy="369.1" r="14.9"/>
+</g>
+<g>
+	
+		<rect x="291.1" y="447.3" transform="matrix(0.1572 -0.9876 0.9876 0.1572 -241.1404 717.7145)" class="st0" width="17.7" height="105.7"/>
+	<path class="st1" d="M286,456.4l104.8,16.3l-37.4,27.5l-104.9-16.7L286,456.4z"/>
+	<path class="st2" d="M390.8,472.7l-37.4,27.5l-2.7,17l37.5-27.9L390.8,472.7z"/>
+	
+		<ellipse transform="matrix(0.1431 -0.9897 0.9897 0.1431 -196.4434 718.5787)" class="st2" cx="316.8" cy="472.7" rx="3.9" ry="27.6"/>
+	<ellipse class="st6" cx="337.3" cy="463.5" rx="15" ry="14.5"/>
+</g>
+</svg>
