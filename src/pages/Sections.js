@@ -12,6 +12,7 @@ import colorfuls from '../graphics/colorfuls.svg';
 import spookys from '../graphics/transition.svg';
 import Speakers from "./sections/Speakers";
 import ContactPage from './sections/Contact';
+import Events from '../components/Events';
 
 function Sections(props) {
     return (
@@ -24,6 +25,7 @@ function Sections(props) {
                 <Speakers/>
                 {/* <Schedule/> */}
                 <ContactPage/>
+                <Events />
                 <FAQ/>
             </div>
 
