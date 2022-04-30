@@ -47,5 +47,14 @@
 
   .speakers .speaker-container.inactive {
     opacity: 100%;
+    
   }
+  .speaker-imagebox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
 }
