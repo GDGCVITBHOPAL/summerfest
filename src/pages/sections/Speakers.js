@@ -1,5 +1,5 @@
 import React from "react";
-import SpeakerSlider from "../../components/SpeakerSlider";
+// import SpeakerSlider from "../../components/SpeakerSlider";
 
 function Speakers(props) {
   return (
