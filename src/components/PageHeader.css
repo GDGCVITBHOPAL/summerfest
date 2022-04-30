@@ -1,35 +1,40 @@
 .header-section {
-    font-size: 20px;
-    color: #6B6D72;
-    margin: 20px 40px;
+  font-size: 20px;
+  color: #6b6d72;
+  margin: 20px 30px;
 }
 
 .header-title {
-    float: left;
-    padding-top: 15px;
+  float: left;
+  padding-top: 15px;
 }
 
 .icon-section {
-    float: right;
-    margin-right: 120px;
-    padding-top: 15px;
+  font-size: 17px;
+  float: right;
+  padding-top: 19px;
+  margin-right: 0;
 }
 
 .social-icon {
-    padding: 0 15px;
+  padding: 0 10px;
 }
 
-a, a:visited {
-    color: #6B6D72;
+a,
+a:visited {
+  color: #6b6d72;
 }
 
 a:hover {
-    color: #25262A;
+  color: #25262a;
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-    .social-icon {
-        padding: 0 10px;
-    }
+  .social-icon {
+    padding: 0 7px;
+  }
+  .icon-section {
+    font-size: 15px;
+  }
 }
