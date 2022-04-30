@@ -2,6 +2,7 @@ node_modules/
 .cache/
 .vscode/
 dist/
+build/
 tmp/
 .idea/
 .DS_Store
