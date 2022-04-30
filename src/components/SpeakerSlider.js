@@ -1,12 +1,15 @@
 import React from 'react';
-import SwiperCore, { A11y, Autoplay} from 'swiper';
+import SwiperCore, { A11y, Autoplay } from 'swiper';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './SpeakerSlider.css';
 
+
 // Import Swiper styles
 import 'swiper/swiper.scss';
-import 'swiper/components/navigation/navigation.scss';
-import 'swiper/components/scrollbar/scrollbar.scss';
+import './SpeakerSlider.css';
+
 
 // install Swiper components
 SwiperCore.use([A11y, Autoplay]);

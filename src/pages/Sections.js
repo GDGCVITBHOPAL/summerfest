@@ -11,8 +11,6 @@ import yellowBottom from '../graphics/yellow-bottom.svg';
 import colorfuls from '../graphics/colorfuls.svg';
 import spookys from '../graphics/transition.svg';
 import Speakers from "./sections/Speakers";
-import Sponsors from "./sections/Sponsors";
-import Contact from './sections/Contact';
 import ContactPage from './sections/Contact';
 
 function Sections(props) {

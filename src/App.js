@@ -12,7 +12,6 @@ function App() {
       <HomePage/>
       <AboutPage/>
       <Sections/>
-
     </div>
   );
 }
