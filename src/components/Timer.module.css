@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  column-gap: 1.8rem;
+  column-gap: 2rem;
 }
 
 .timeBox {
