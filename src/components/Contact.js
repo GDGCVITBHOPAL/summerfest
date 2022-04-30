@@ -5,8 +5,6 @@ import "swiper/components/navigation/navigation.scss";
 import "swiper/components/scrollbar/scrollbar.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
-import speaker1 from "../graphics/speaker-1.svg";
-import tom from "../graphics/tom.svg";
 import "./SpeakerSlider.css";
 SwiperCore.use([A11y, Autoplay]);
 const Contact = () => {
