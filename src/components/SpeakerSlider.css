@@ -1,43 +1,51 @@
 .speaker-intro {
-    width: 80%;
-    margin-bottom: 15vh;
+  width: 80%;
+  margin-bottom: 15vh;
 }
-.social-icons-contact:hover{
-    color: white;
+.social-icons-contact:hover {
+  color: white;
 }
 .speaker-container {
-    text-align: center;
+  text-align: center;
 }
 
 .speaker-name {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
-
+.speaker-imagebox {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  border: 3px solid white;
+}
 .speaker-image {
-    width: 130px;
+  width: 100%;
 }
 
 .speaker-title {
-    margin-top: 5px;
-    font-size: 14px;
-    line-height: 20px;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 /* Swiper CSS for Speakers */
 .speakers .speaker-container.inactive {
-    opacity: 40%;
+  opacity: 40%;
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-    .speaker-intro {
-        width: 100%;
-        margin-bottom: 10vh;
-    }
+  .speaker-intro {
+    width: 100%;
+    margin-bottom: 10vh;
+  }
 
-    .speakers .speaker-container.inactive {
-        opacity: 100%;
-    }
+  .speakers .speaker-container.inactive {
+    opacity: 100%;
+  }
 }
