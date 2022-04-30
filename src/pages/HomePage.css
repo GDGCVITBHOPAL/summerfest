@@ -1,72 +1,80 @@
 .home-page {
-    margin-top: 30vh;
-    margin-left: 20%;
-    width: 70%;
-    height: 70vh;
-    /* position: absolute; */
-    text-align: left;
+  margin-top: 25vh;
+  margin-left: 20%;
+  width: 70%;
+  height: 75vh;
+  /* position: absolute; */
+  text-align: left;
+  padding-bottom: 5rem;
 }
 
 .home-title {
-    display: inline;
-    font-size: 96px;
-    margin-bottom: 0;
+  display: inline;
+  font-size: 96px;
+  margin-bottom: 0;
 }
 
 .home-dates {
-    font-size: 36px;
-    font-weight: 500;
-    margin-top: 0;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0;
 }
 
+.home-timer {
+  margin-top: 1.5rem;
+}
+.home-timer div {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 .MuiButtonBase-root.MuiFab-root.home-button {
-    font-family: 'Poppins';
-    font-size: 17px;
-    font-weight: bold;
-    background-color: #F2C94C;
-    padding: 10px 50px;
-    border-radius: 25px;
-    margin-top: 50px;
-    box-shadow: none;
-    text-transform: none;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #f2c94c;
+  padding: 10px 50px;
+  border-radius: 25px;
+  margin-top: 50px;
+  box-shadow: none;
+  text-transform: none;
 }
 
 .MuiButtonBase-root.MuiFab-root.home-button:hover {
-    background: #ffd659;
+  background: #ffd659;
 }
 
 .home-circle {
-    background-color: #F2C94C;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 10px;
-    bottom: 5px;
+  background-color: #f2c94c;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  bottom: 5px;
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-    .home-page {
-        text-align: center;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .home-page {
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .home-title {
-        font-size: 60px;
-        line-height: 60px;
-    }
+  .home-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
 
-    .home-circle {
-        width: 18px;
-        height: 18px;
-    }
+  .home-circle {
+    width: 18px;
+    height: 18px;
+  }
 
-    .home-dates {
-        margin-top: 50px;
-        font-size: 24px;
-    }
+  .home-dates {
+    margin-top: 50px;
+    font-size: 24px;
+  }
 }
