@@ -11,7 +11,9 @@ function Speakers(props) {
                     <div className={"speakers"}><SpeakerSlider/></div>
                 </div>
             </div>
+
         </div>
+  
   );
 }
 

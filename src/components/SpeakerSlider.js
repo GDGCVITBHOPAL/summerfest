@@ -3,6 +3,9 @@ import SwiperCore, { A11y, Autoplay } from 'swiper';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import './SpeakerSlider.css';
+
+
 // Import Swiper styles
 import 'swiper/swiper.scss';
 import './SpeakerSlider.css';

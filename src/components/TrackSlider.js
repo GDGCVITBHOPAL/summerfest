@@ -1,16 +1,22 @@
+
 import React from 'react';
-import SwiperCore, { A11y, Autoplay, Pagination } from 'swiper';
+import machine from '../graphics/machine.svg';
+import Web from '../graphics/web.svg';
+/* import tracks1 from '../graphics/tracks2.svg';
+import tracks2 from '../graphics/tracks2.svg'; */
+import tracks3 from '../graphics/tracks3.svg';
+import web3 from "../graphics/web3.svg"
+import game from '../graphics/game.svg';
+import app from '../graphics/app.svg';
+/* import tracks4 from '../graphics/tracks4.svg'; */
+import SwiperCore, { Pagination, A11y, Autoplay} from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './TrackSlider.css';
+/* import content from "./Tracks.json" */
+import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/swiper.scss';
-import tracks1 from '../graphics/tracks1.svg';
-import tracks2 from '../graphics/tracks2.svg';
-import tracks3 from '../graphics/tracks3.svg';
-import tracks4 from '../graphics/tracks4.svg';
-import './TrackSlider.css';
 
 
 
@@ -18,6 +24,8 @@ import './TrackSlider.css';
 SwiperCore.use([Pagination, A11y, Autoplay]);
 
 function TrackSlider() {
+
+
     return (
         <Swiper
             updateOnWindowResize
@@ -37,7 +45,7 @@ function TrackSlider() {
             <SwiperSlide>
                     <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track1-image"} src={tracks1} alt="" />
+                        <img className={"track-image track1-image"} src={machine} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Machine Learning</h1>
@@ -49,7 +57,7 @@ function TrackSlider() {
             <SwiperSlide>
                 <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track2-image"} src={tracks2} alt="" />
+                        <img className={"track-image track2-image"} src={Web} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Web</h1>
@@ -71,7 +79,7 @@ function TrackSlider() {
             <SwiperSlide>
                 <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track4-image"} src={tracks4} alt="" />
+                        <img className={"track-image track4-image"} src={app} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Mobile Development</h1>
@@ -82,7 +90,7 @@ function TrackSlider() {
             <SwiperSlide>
                 <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track2-image"} src={tracks2} alt="" />
+                        <img className={"track-image track2-image"} src={web3} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Web 3</h1>
@@ -93,7 +101,7 @@ function TrackSlider() {
             <SwiperSlide>
             <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track1-image"} src={tracks1} alt="" />
+                        <img className={"track-image track1-image"} src={game} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Game Development</h1>

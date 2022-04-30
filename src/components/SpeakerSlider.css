@@ -2,7 +2,9 @@
     width: 80%;
     margin-bottom: 15vh;
 }
-
+.social-icons-contact:hover{
+    color: white;
+}
 .speaker-container {
     text-align: center;
 }
