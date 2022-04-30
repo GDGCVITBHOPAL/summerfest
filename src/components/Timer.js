@@ -14,6 +14,7 @@ const Timer = ({ targetTime }) => {
     setInterval(() => {
       setCountDown(getSeconds());
     }, 1000);
+    // eslint-disable-next-line
   }, []);
 
   const secondsString = () => {
