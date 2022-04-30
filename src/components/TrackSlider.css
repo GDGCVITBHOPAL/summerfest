@@ -124,3 +124,14 @@ p.track-contents{
         bottom: -50px !important;
     }
 }
+
+@media (max-width:460px) {
+    .tracks .swiper-pagination-bullet.override {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 10px !important;
+        box-sizing: border-box;
+    }
+}
