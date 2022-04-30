@@ -26,6 +26,7 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 
 function TrackSlider() {
 
+
     return (
         <Swiper
             updateOnWindowResize
@@ -111,6 +112,7 @@ function TrackSlider() {
             </SwiperSlide>
         </Swiper>
     )
+
 }
 
 export default TrackSlider;
