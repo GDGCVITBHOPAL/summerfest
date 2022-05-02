@@ -8,7 +8,7 @@ function PageHeader(props) {
     <div className={"header-section"}>
       <span className={"header-title"}>
         {/* SUMMERFEST 2022 */}
-        <img src={logoSrc} width="100px" />
+        <img alt="" src={logoSrc} width="100px" />
       </span>
       <span className={"icon-section"}>
         <a href="https://www.instagram.com/gdscvitbhopal">
