@@ -11,7 +11,7 @@ const eventsDataArr = [
   },
   {
     title: "Game night",
-    desc: "After a week-long bout, a game night full of fun and remunerative games is organized on 30 May. Be on your toes to prove your supremacy in the year's most played game- Valorant.",
+    desc: "After a week-long bout, a game night full of fun and remunerative games is organized. Be on your toes to prove your supremacy in the year's most played game- Valorant.",
     time: "2022-05-20T00:00:00+05:30",
   },
 /*   {
