@@ -12,7 +12,7 @@ function HomePage(props) {
         <div>
           <h1 className={"home-title"}>HackGDSC</h1>
           <div className={"home-circle"}></div>
-          <h3 className={"home-dates"}>May 5 - May 6, 2022</h3>
+          <h3 className={"home-dates"}>May 20 - May 31, 2022</h3>
         </div>
         {/* <a style={{textDecoration: "none" }}href="https://tinyurl.com/hd-hacker-guide" target="_blank" rel="noopener noreferrer"> */}
         {/* Make clicking this scroll to register section */}
@@ -22,7 +22,7 @@ function HomePage(props) {
         {/* </a> */}
         <div className="home-timer">
           <h2>Event Starts in </h2>
-          <Timer targetTime="2022-05-02T00:00:00+05:30" />
+          <Timer targetTime="2022-05-20T00:00:00+05:30" />
         </div>
       </div>
     </div>
