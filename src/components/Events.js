@@ -15,7 +15,8 @@ const Events = () => {
                 <p>{event.desc}</p>
               </div>
               <div className="event-card-timer-holder">
-                <Timer targetTime={event.time} />
+                {event.time ? <Timer targetTime={event.time} /> : <></>}
+                
               </div>
             </div>
           </div>
