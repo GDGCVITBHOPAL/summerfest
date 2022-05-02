@@ -3,6 +3,7 @@ import { Fab } from "@material-ui/core";
 import "./HomePage.css";
 import PageHeader from "../components/PageHeader";
 import Timer from "../components/Timer";
+import { FiDownload } from "react-icons/fi";
 
 function HomePage(props) {
   return (
@@ -16,9 +17,17 @@ function HomePage(props) {
         </div>
         {/* <a style={{textDecoration: "none" }}href="https://tinyurl.com/hd-hacker-guide" target="_blank" rel="noopener noreferrer"> */}
         {/* Make clicking this scroll to register section */}
-        <Fab variant={"extended"} className={"home-button"}>
-          Register Now!
-        </Fab>
+        <div className="home-buttons-container">
+          <Fab variant={"extended"} className={"home-button"}>
+            Register Now!
+          </Fab>
+          <a href="/brochure.pdf" target="_blank" rel="noreferrer">
+            <Fab variant={"extended"} className={"home-button home-brochure"}>
+              <span>Download Brochure </span>
+              <FiDownload />
+            </Fab>
+          </a>
+        </div>
         {/* </a> */}
         <div className="home-timer">
           <h2>Event Starts in </h2>
