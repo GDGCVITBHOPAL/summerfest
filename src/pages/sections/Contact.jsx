@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "../../components/Contact";
-import { ImWhatsapp } from "react-icons/im"
-import { FiInstagram } from "react-icons/fi"
+import { ImWhatsapp } from "react-icons/im";
+import { FiInstagram } from "react-icons/fi";
 const ContactPage = () => {
   return (
     <div className={"section"}>
@@ -13,10 +13,29 @@ const ContactPage = () => {
         >
           <div className={"section-header"}>Contact Us</div>
           <p className={"speaker-intro"}>
-            In case of any help feel free to contact us {" "}
+            In case of any help feel free to contact us <br />
+            <a
+              className={"social-icons-contact"}
+              href="https://www.instagram.com/kulkarni.ishika/"
+              style={{ marginRight: "20px", textDecoration: "none" }}
+            >
+              <span style={{ fontSize: "1em", color: "white" }}>
+                Join Our <u>Whatsapp</u>
+              </span>
+
+              <ImWhatsapp
+                style={{
+                  marginLeft: "10px",
+                  position: "relative",
+                  top: "8px",
+                  color: "white",
+                }}
+                size="25px"
+              />
+            </a>
             <br />
             <a
-                className={"social-icons-contact"}
+              className={"social-icons-contact"}
                 href="https://chat.whatsapp.com/IEZoFPagZYeJjULEj6TZU3"
                 style={{ marginRight: "20px" , textDecoration: "none" }}
               >
