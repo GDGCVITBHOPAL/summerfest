@@ -27,10 +27,10 @@
     "static/media/yellow-bottom.svg": "/hackgdsc/static/media/yellow-bottom.d5550390.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7345017a.js",
-    "static/css/2.fb3a51ac.chunk.css",
-    "static/js/2.613f1233.chunk.js",
-    "static/css/main.2069b7dd.chunk.css",
-    "static/js/main.ac9d4f88.chunk.js"
+    "/hackgdsc/static/js/runtime-main.7345017a.js",
+    "/hackgdsc/static/css/2.fb3a51ac.chunk.css",
+    "/hackgdsc/static/js/2.613f1233.chunk.js",
+    "/hackgdsc/static/css/main.2069b7dd.chunk.css",
+    "/hackgdsc/static/js/main.ac9d4f88.chunk.js"
   ]
 }
