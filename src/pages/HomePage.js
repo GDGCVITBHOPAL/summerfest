@@ -21,11 +21,7 @@ function HomePage(props) {
           <Fab variant={"extended"} className={"home-button"}>
             Register Now!
           </Fab>
-          <a
-            href="https://drive.google.com/file/d/1evmrsNGjU6KJ6Tf5R5dgt9IQKHD-FNFZ/view"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/brochure.pdf" target="_blank" rel="noreferrer">
             <Fab variant={"extended"} className={"home-button home-brochure"}>
               <span>Download Brochure </span>
               <FiDownload />
