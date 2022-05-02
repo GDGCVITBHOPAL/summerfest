@@ -6,7 +6,7 @@ import { FaDiscord, FaLinkedin, FaTwitter } from "react-icons/fa";
 function PageHeader(props) {
   return (
     <div className={"header-section"}>
-      <span className={"header-title"}>HackGDSC 2022</span>
+      <span className={"header-title"}>SUMMERFEST 2022</span>
       <span className={"icon-section"}>
         <a href="https://www.instagram.com/gdscvitbhopal">
           <GrInstagram className={"social-icon"} />
