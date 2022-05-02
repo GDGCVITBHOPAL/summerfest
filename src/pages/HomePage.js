@@ -16,9 +16,14 @@ function HomePage(props) {
         </div>
         {/* <a style={{textDecoration: "none" }}href="https://tinyurl.com/hd-hacker-guide" target="_blank" rel="noopener noreferrer"> */}
         {/* Make clicking this scroll to register section */}
-        <Fab variant={"extended"} className={"home-button"}>
-          Register Now!
-        </Fab>
+        <div className='home-buttons-container'>
+          <Fab variant={"extended"} className={"home-button"}>
+            Register Now!
+          </Fab>
+          <Fab variant={"extended"} className={"home-button"}>
+            Download Brochure
+          </Fab>
+        </div>
         {/* </a> */}
         <div className="home-timer">
           <h2>Event Starts in </h2>

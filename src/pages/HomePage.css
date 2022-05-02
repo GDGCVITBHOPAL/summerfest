@@ -26,6 +26,13 @@
 .home-timer div {
   font-size: 1.2rem;
 }
+
+.home-buttons-container {
+  display: flex;
+  column-gap: 1rem;
+  margin-bottom: 50px;
+}
+
 .MuiButtonBase-root.MuiFab-root.home-button {
   font-family: "Poppins";
   font-size: 17px;
@@ -34,6 +41,7 @@
   padding: 10px 50px;
   border-radius: 25px;
   margin-top: 50px;
+  margin-bottom: 0px !important;
   box-shadow: none;
   text-transform: none;
 }
@@ -80,5 +88,9 @@
   .home-timer div {
     font-size: 0.9rem;
     margin: 0 auto;
+  }
+
+  .home-buttons-container {
+    flex-direction: column;
   }
 }
