@@ -37,7 +37,11 @@ const Contact = () => {
             </div>
             <div className={"speaker-textbox"}>
               <h1 className={"speaker-name"}>Ishika Kulkarni</h1>
-              <p className={"speaker-title"}>Community Lead, GDSC VITB</p>
+              <p className={"speaker-title"}>
+                Community Lead
+                <br />
+                GDSC VITB
+              </p>
               <a
                 className={"social-icons-contact"}
                 href="https://www.instagram.com/kulkarni.ishika/"
@@ -68,8 +72,9 @@ const Contact = () => {
             <div className={"speaker-textbox"}>
               <h1 className={"speaker-name"}>Aman Sharma</h1>
               <p className={"speaker-title"}>
-                Technical Lead , GDSC
-                <br /> VITB
+                Technical Lead
+                <br />
+                GDSC VITB
               </p>
               <a
                 className={"social-icons-contact"}
