@@ -7,6 +7,7 @@ import tracks2 from '../graphics/tracks2.svg'; */
 import tracks3 from '../graphics/tracks3.svg';
 import web3 from "../graphics/web3.svg"
 import game from '../graphics/game.svg';
+import open from '../graphics/open.svg';
 import app from '../graphics/app.svg';
 /* import tracks4 from '../graphics/tracks4.svg'; */
 import SwiperCore, { Pagination, A11y, Autoplay} from 'swiper';
@@ -68,7 +69,7 @@ function TrackSlider() {
             <SwiperSlide>
                 <div className={"track-container"}>
                     <div className={"track-imagebox"}>
-                        <img className={"track-image track3-image"} src={tracks3} alt="" />
+                        <img className={"track-image track3-image"} src={open} alt="" />
                     </div>
                     <div className={"track-textbox"}>
                         <h1 className={"track-title"}>Open Innovation</h1>
