@@ -46,11 +46,13 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Machine Learning</h1>
             <p className={"track-contents"}>
-              The Energy and Environment track encompasses a technical
-              perspective to deal with large issues impacting energy use,
-              allocation and environmental regulations. This track has many
-              applications, including machine learning for resource extraction,
-              the use of green energy and enforcing environmental policy.
+              The Machine Learning track expands over a diverse range of
+              applications for day-to-day problems. Combined with Artificial
+              Intelligence, it can create a dynamic solution to address
+              environmental problems by detecting energy emission reductions,
+              removing CO2, developing greener transportation networks,
+              monitoring deforestation, and predicting extreme weather
+              conditions.
             </p>
           </div>
         </div>
@@ -63,11 +65,11 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Web</h1>
             <p className={"track-contents"}>
-              The Energy and Environment track encompasses a technical
-              perspective to deal with large issues impacting energy use,
-              allocation and environmental regulations. This track has many
-              applications, including machine learning for resource extraction,
-              the use of green energy and enforcing environmental policy.
+              The Web Development track revolves around building and Rendering
+              Web pages, including HTML, CSS, SVG, device APIs, and other
+              technologies for Web Applications. It opens up the endless
+              possibilities of interconnected tools to create the most efficient
+              and accessible platform for deploying sustainable solutions.
             </p>
           </div>
         </div>
@@ -80,11 +82,11 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Open Innovation</h1>
             <p className={"track-contents"}>
-              The Health track allows hackers to work with various kinds of
-              health related data, as well as connect with mentors from the
-              intersection of health and technology. More than ever, technology
-              today is in a prime position to improve the quality, efficiency,
-              and accessibility of health care.
+              The Open Innovation Track unlocks a mindset contrary to the
+              secrecy and silo mentality of the traditional community. The key
+              to sustainable open innovation is integrating consumers’ ideas
+              into the process of building solutions such as Clean Energy
+              Efficiency, Repurposing waste, etc.
             </p>
           </div>
           {/* comment here */}
@@ -98,10 +100,10 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Mobile Development</h1>
             <p className={"track-contents"}>
-              The Education track pairs hackers with educators, reaching out to
-              all levels of subjects and skills. In addition to HackDuke
-              sponsored Education events, projects aim to increase visibility of
-              technology and to introduce basic skills to the public.
+              The Mobile Development Track leverages light-weight yet powerful
+              applications by the virtue of an attractive User Interface with a
+              good User Experience. The track is designed to help you build
+              interactive systems capable of solving complex problems.
             </p>
           </div>
         </div>
@@ -114,11 +116,9 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Web 3</h1>
             <p className={"track-contents"}>
-              The Energy and Environment track encompasses a technical
-              perspective to deal with large issues impacting energy use,
-              allocation and environmental regulations. This track has many
-              applications, including machine learning for resource extraction,
-              the use of green energy and enforcing environmental policy.
+              The Web3 track offers an idea for a new iteration of the World
+              Wide Web-based on blockchain technology. This iteration relies on
+              such concepts as decentralization and token-based economics.
             </p>
           </div>
         </div>
@@ -131,11 +131,9 @@ function TrackSlider() {
           <div className={"track-textbox"}>
             <h1 className={"track-title"}>Game Development</h1>
             <p className={"track-contents"}>
-              The Inequality track targets problems regarding both social and
-              economic inequality. Whether it is creating solutions to bridge
-              the income gap, or finding ways to reduce disparities in gender or
-              race, this track is built on the principle that everyone should
-              have the capacity to reach their full potential.
+              The Game Development track unfurls the art of creating games and
+              describes the design, development, and releasing the game. It
+              involves concept generation, design, build, test, and release.
             </p>
           </div>
         </div>
