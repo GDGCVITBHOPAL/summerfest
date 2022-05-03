@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.2069b7dd.chunk.css",
-    "main.js": "./static/js/main.b27b0d4e.chunk.js",
-    "main.js.map": "./static/js/main.b27b0d4e.chunk.js.map",
+    "main.css": "./static/css/main.d361c0e7.chunk.css",
+    "main.js": "./static/js/main.1a8a4dc7.chunk.js",
+    "main.js.map": "./static/js/main.1a8a4dc7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b3f80fb0.js",
     "runtime-main.js.map": "./static/js/runtime-main.b3f80fb0.js.map",
     "static/css/2.fb3a51ac.chunk.css": "./static/css/2.fb3a51ac.chunk.css",
-    "static/js/2.7e0f261b.chunk.js": "./static/js/2.7e0f261b.chunk.js",
-    "static/js/2.7e0f261b.chunk.js.map": "./static/js/2.7e0f261b.chunk.js.map",
+    "static/js/2.ac4db718.chunk.js": "./static/js/2.ac4db718.chunk.js",
+    "static/js/2.ac4db718.chunk.js.map": "./static/js/2.ac4db718.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a7276e85b3f751015be2cb0034313253.js": "./precache-manifest.a7276e85b3f751015be2cb0034313253.js",
+    "precache-manifest.3fedace6eab937beec1dbc58fdfc5ce7.js": "./precache-manifest.3fedace6eab937beec1dbc58fdfc5ce7.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.fb3a51ac.chunk.css.map": "./static/css/2.fb3a51ac.chunk.css.map",
-    "static/css/main.2069b7dd.chunk.css.map": "./static/css/main.2069b7dd.chunk.css.map",
-    "static/js/2.7e0f261b.chunk.js.LICENSE.txt": "./static/js/2.7e0f261b.chunk.js.LICENSE.txt",
+    "static/css/main.d361c0e7.chunk.css.map": "./static/css/main.d361c0e7.chunk.css.map",
+    "static/js/2.ac4db718.chunk.js.LICENSE.txt": "./static/js/2.ac4db718.chunk.js.LICENSE.txt",
     "static/media/app.svg": "./static/media/app.a64e6e20.svg",
     "static/media/blue-ball.svg": "./static/media/blue-ball.d3f046ed.svg",
     "static/media/colorfuls.svg": "./static/media/colorfuls.3b3e332b.svg",
     "static/media/game.svg": "./static/media/game.392fa272.svg",
     "static/media/machine.svg": "./static/media/machine.41a0a7a3.svg",
     "static/media/open.svg": "./static/media/open.efde3002.svg",
+    "static/media/summerfest-logo.png": "./static/media/summerfest-logo.e6d38554.png",
     "static/media/transition.svg": "./static/media/transition.3efdc472.svg",
     "static/media/triple-ball.svg": "./static/media/triple-ball.af9d3a6c.svg",
     "static/media/web.svg": "./static/media/web.3e4e300b.svg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3f80fb0.js",
     "static/css/2.fb3a51ac.chunk.css",
-    "static/js/2.7e0f261b.chunk.js",
-    "static/css/main.2069b7dd.chunk.css",
-    "static/js/main.b27b0d4e.chunk.js"
+    "static/js/2.ac4db718.chunk.js",
+    "static/css/main.d361c0e7.chunk.css",
+    "static/js/main.1a8a4dc7.chunk.js"
   ]
 }
