@@ -4,6 +4,7 @@ import "./HomePage.css";
 import PageHeader from "../components/PageHeader";
 import Timer from "../components/Timer";
 import { FiDownload } from "react-icons/fi";
+import logoSummerfest from "../components/summerfest_logos_edit1.png";
 
 function HomePage(props) {
   return (
@@ -11,7 +12,9 @@ function HomePage(props) {
       <PageHeader />
       <div className={"home-page"}>
         <div>
-          <h1 className={"home-title"}>SUMMERFEST</h1>
+          <h1 className={"home-title"}>
+            <img id="summerfest" alt="summerfest logo" src={logoSummerfest}/>
+          </h1>
           <div className={"home-circle"}></div>
           <h3 className={"home-dates"}>May 19 - May 22, 2022</h3>
         </div>
