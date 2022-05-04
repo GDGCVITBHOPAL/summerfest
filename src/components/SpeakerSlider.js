@@ -53,10 +53,10 @@ function SpeakerSlider() {
             >
 
                 <SwiperSlide>
-                    <div className={"speaker-container"}>
+                    <div className={"speaker-container-1"}>
                         <div className={"speaker-imagebox-main"}>
                             <a href='https://devfolio.co'>
-                                <img className={"speaker-image"} src={devfolio} alt="" />
+                                <img className={"speaker-image-1"} src={devfolio} alt="" />
                             </a>
                         </div>
                         <div className={"speaker-textbox"}>
@@ -66,10 +66,10 @@ function SpeakerSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={"speaker-container"}>
+                    <div className={"speaker-container-1"}>
                         <div className={"speaker-imagebox-main"}>
                             <a href='https://polygon.technology/'>
-                                <img className={"speaker-image"} src={polygon} alt="" />
+                                <img className={"speaker-image-1"} src={polygon} alt="" />
                             </a>
                         </div>
                         <div className={"speaker-textbox"}>
@@ -92,7 +92,7 @@ function SpeakerSlider() {
             >
 
                 <SwiperSlide>
-                    <div className={"speaker-container"}>
+                    <div className={"speaker-container-2"}>
                         <div className={"speaker-imagebox-main"}>
                             <a href='https://tezos.com'>
                                 <img className={"speaker-image-2"} src={tezos} alt="" />
@@ -105,7 +105,7 @@ function SpeakerSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={"speaker-container"}>
+                    <div className={"speaker-container-2"}>
                         <div className={"speaker-imagebox-main"}>
                             <a href='https://celo.org'>
                                 <img className={"speaker-image-2"} src={celo} alt="" />
@@ -118,7 +118,7 @@ function SpeakerSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={"speaker-container"}>
+                    <div className={"speaker-container-2"}>
                         <div className={"speaker-imagebox-main"}>
                             <a href='https://filecoin.io'>
                                 <img className={"speaker-image-2"} src={filecoin} alt="" />
