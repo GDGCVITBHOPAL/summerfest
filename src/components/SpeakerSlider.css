@@ -25,6 +25,15 @@
 }
 .speaker-image {
   width: 100%;
+  margin-top: 50px;
+}
+.speaker-image-2{
+  width:70%;
+  margin-top: 50px;
+  margin-left: -30%;
+}
+.main-container-speaker{
+  padding-left: 150px;
 }
 
 .speaker-title {
