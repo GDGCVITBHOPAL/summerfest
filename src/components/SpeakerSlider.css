@@ -25,7 +25,10 @@
 }
 .speaker-image {
   width: 100%;
-  margin-top: 50px;
+}
+.speaker-image-1 {
+  width: 100%;
+  margin-top: 30px;
 }
 .speaker-image-2{
   width:70%;
@@ -34,6 +37,14 @@
 }
 .main-container-speaker{
   padding-left: 150px;
+}
+.speaker-container-1{
+  position: relative;
+  left: 180%;
+}
+.speaker-container-2{
+  position: relative;
+  left: 160%;
 }
 
 .speaker-title {
@@ -67,3 +78,55 @@
 
   
 }
+
+@media (min-width:1600px) {
+  .speaker-container-1{
+    position: relative;
+    left: 230%;
+  }
+  .speaker-container-2{
+    position: relative;
+    left: 210%;
+  }
+  
+}
+
+@media (max-width:1260px) {
+  .speaker-container-1{
+    position: relative;
+    left: 110%;
+  }
+  .speaker-container-2{
+    position: relative;
+    left: 90%;
+  }
+  
+}
+
+@media (max-width:1024px) {
+  .speaker-container-1{
+    position: relative;
+    left: 70%;
+  }
+  .speaker-container-2{
+    position: relative;
+    left: 50%;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .speaker-container-1{
+    position: relative;
+    left: 0%;
+  }
+  .speaker-container-2{
+    position: relative;
+    left: 0%;
+  }
+  .speaker-image-2{
+    margin-left: 0px;
+  }
+  
+}
+
