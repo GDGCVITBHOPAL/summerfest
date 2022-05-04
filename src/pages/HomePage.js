@@ -7,6 +7,18 @@ import { FiDownload } from "react-icons/fi";
 import logoSummerfest from "../components/summerfest_logos_edit1.png";
 
 function HomePage(props) {
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <div>
       <PageHeader />
@@ -21,8 +33,16 @@ function HomePage(props) {
         {/* <a style={{textDecoration: "none" }}href="https://tinyurl.com/hd-hacker-guide" target="_blank" rel="noopener noreferrer"> */}
         {/* Make clicking this scroll to register section */}
         <div className="home-buttons-container">
-          <Fab variant={"extended"} className={"home-button"}>
+          {/* <Fab variant={"extended"} className={"home-button"}>
             Register Now!
+          </Fab> */}
+          <Fab variant={"extended"} className={"home-button"}>
+            <div 
+              className="apply-button" 
+              data-hackathon-slug="hackgdsc.devfolio.com" 
+              data-button-theme="light"
+              style={{height: "44px", width: "312px"}}
+            ></div>
           </Fab>
           <a href="/brochure.pdf" target="_blank" rel="noreferrer">
             <Fab variant={"extended"} className={"home-button home-brochure"}>

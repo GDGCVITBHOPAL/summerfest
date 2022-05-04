@@ -8,7 +8,7 @@ const Events = () => {
       <p className="upcoming">Upcoming Events</p>
       {eventsDataArr.map((event) => {
         return (
-          <div class="card">
+          <div className="card">
             <div>
               <h1>{event.title}</h1>
               <div className="description-card">

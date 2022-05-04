@@ -36,14 +36,14 @@
 }
 
 .MuiButtonBase-root.MuiFab-root.home-button {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 17px;
     font-weight: bold;
-    background-color: #F2C94C;
+    background-color: transparent !important;
     padding: 10px 50px;
-    border-radius: 25px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    /* border-radius: 25px; */
+    margin-top: 50px;
+    margin-bottom: 0px !important;
     box-shadow: none;
     text-transform: none;
 }
