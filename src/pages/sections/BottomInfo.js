@@ -5,16 +5,16 @@ import "./BottomInfo.css";
 
 function BottomInfo(props) {
 
-  React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://apply.devfolio.co/v2/sdk.js';
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   }
+  // }, []);
 
   return (
     <div className={"section"}>
@@ -26,7 +26,7 @@ function BottomInfo(props) {
           <Fab variant={"extended"} className={"home-button"}>
             <div 
               className="apply-button" 
-              data-hackathon-slug="hackgdsc.devfolio.com" 
+              data-hackathon-slug="hackgdsc" 
               data-button-theme="light"
               style={{height: "44px", width: "312px"}}
             ></div>
