@@ -11,7 +11,7 @@ const eventsDataArr = [
   {
     title: "Game night",
     desc: "The perfect end to an eventful fest must be energetic and entertaining. Mixing the splash of fun with learning, join for a plethora of lucrative games at GDSC Game Nights.",
-    time: "2022-05-29T00:00:00+05:30",
+    time: "2022-05-29T21:00:00+05:30",
   },
   /*   {
     title: "UI/UX competition",

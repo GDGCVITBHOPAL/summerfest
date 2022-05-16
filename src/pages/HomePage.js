@@ -7,18 +7,6 @@ import { FiDownload } from "react-icons/fi";
 import logoSummerfest from "../components/summerfest_logos_edit1.png";
 
 function HomePage(props) {
-
-  // React.useEffect(() => {
-  //   const script = document.createElement('script');
-  //   script.src = 'https://apply.devfolio.co/v2/sdk.js';
-  //   script.async = true;
-  //   script.defer = true;
-  //   document.body.appendChild(script);
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   }
-  // }, []);
-
   return (
     <div>
       <PageHeader />
@@ -44,7 +32,7 @@ function HomePage(props) {
               style={{height: "44px", width: "312px"}}
             ></div>
           </Fab>
-          <a href="/brochure_new.pdf" target="_blank" rel="noreferrer">
+          <a href="./summerfest_brochure.pdf" target="_blank" rel="noreferrer">
             <Fab variant={"extended"} className={"home-button home-brochure"}>
               <span>Download Brochure </span>
               <FiDownload />
@@ -54,7 +42,7 @@ function HomePage(props) {
         {/* </a> */}
         <div className="home-timer">
           <h2>Event Starts in </h2>
-          <Timer targetTime="2022-05-27T10:00:00+05:30" />
+          <Timer targetTime="2022-05-27T09:00:00+05:30" />
         </div>
       </div>
     </div>

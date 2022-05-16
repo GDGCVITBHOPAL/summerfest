@@ -11,7 +11,7 @@ export const FaqsArr = [
   {
     question: "When? Where?",
     answer:
-      "HackDSC starts May 20th and ends on May 31th. All of our events will be done virtually.",
+      "HackDSC starts May 27th and ends on May 29th. All of our events will be done virtually.",
   },
   {
     question: "What can I make?",
