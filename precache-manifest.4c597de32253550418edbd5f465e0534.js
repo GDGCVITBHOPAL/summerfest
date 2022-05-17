@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8acb5d753b7a35dc98084ef240b59e23",
+    "revision": "02d88d20e2a0295934abef2e6d7de1d2",
     "url": "./index.html"
   },
   {
-    "revision": "840e2edfafcd0013f182",
+    "revision": "3a92528e61cdf484ea39",
     "url": "./static/css/2.fb3a51ac.chunk.css"
   },
   {
-    "revision": "5708c4b138faa1b55a45",
-    "url": "./static/css/main.4c96ab50.chunk.css"
+    "revision": "579cbcd37ecfc5548ed8",
+    "url": "./static/css/main.12eccfb1.chunk.css"
   },
   {
-    "revision": "840e2edfafcd0013f182",
-    "url": "./static/js/2.11866665.chunk.js"
+    "revision": "3a92528e61cdf484ea39",
+    "url": "./static/js/2.65bb8ef7.chunk.js"
   },
   {
     "revision": "6397acf4c5cafcd591a770ce33fc3e2f",
-    "url": "./static/js/2.11866665.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.65bb8ef7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5708c4b138faa1b55a45",
-    "url": "./static/js/main.2c6148a5.chunk.js"
+    "revision": "579cbcd37ecfc5548ed8",
+    "url": "./static/js/main.d55eaf04.chunk.js"
   },
   {
     "revision": "87751dbe7a8b10cfe0e7",
     "url": "./static/js/runtime-main.b3f80fb0.js"
+  },
+  {
+    "revision": "977c878bb0b359b5b3a6e441ce505066",
+    "url": "./static/media/Icons8.977c878b.png"
   },
   {
     "revision": "a64e6e20724433072dbbc95c07b81f8a",
@@ -40,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/celo.b9a94c23.png"
   },
   {
+    "revision": "d398c9a6547f28318bfb9f2b07e8b951",
+    "url": "./static/media/clerky.d398c9a6.jpg"
+  },
+  {
     "revision": "3b3e332b3e70b48c2022c8660acbc091",
     "url": "./static/media/colorfuls.3b3e332b.svg"
   },
   {
     "revision": "392fa27216e725659d0c8b9417a1bc58",
     "url": "./static/media/game.392fa272.svg"
+  },
+  {
+    "revision": "f7f00d0ee47b16476c192072b568056b",
+    "url": "./static/media/interviewcake.f7f00d0e.png"
   },
   {
     "revision": "41a0a7a32886da83377de23ee82427db",
