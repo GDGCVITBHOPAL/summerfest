@@ -9,7 +9,9 @@ import filecoin from "../graphics/filecoin.png"
 import polygon from "../graphics/polygon.png"
 import tezos from "../graphics/tezos.png"
 import celo from "../graphics/celo.png"
-
+import interviewcake from "../graphics/interviewcake.png"
+import icons8 from "../graphics/Icons8.png"
+import clerky from "../graphics/clerky.jpg"
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -54,28 +56,28 @@ function SpeakerSlider() {
 
                 <SwiperSlide>
                     <div className={"speaker-container-1"}>
-                        <div className={"speaker-imagebox-main"}>
-                            <a href='https://devfolio.co'>
-                                <img className={"speaker-image-1"} src={devfolio} alt="" />
-                            </a>
-                        </div>
-                        <div className={"speaker-textbox"}>
-                            {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                        <a href='https://devfolio.co' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                    <img className={"speaker-image-1"} src={devfolio} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={"speaker-container-1"}>
-                        <div className={"speaker-imagebox-main"}>
-                            <a href='https://polygon.technology/'>
+                        <a href='https://polygon.technology/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-1"} src={polygon} alt="" />
-                            </a>
-                        </div>
-                        <div className={"speaker-textbox"}>
-                            {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
 
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </SwiperSlide>
 
@@ -93,44 +95,85 @@ function SpeakerSlider() {
 
                 <SwiperSlide>
                     <div className={"speaker-container-2"}>
-                        <div className={"speaker-imagebox-main"}>
-                            <a href='https://tezos.com'>
+                        <a href='https://tezos.com' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={tezos} alt="" />
-                            </a>
-                        </div>
-                        <div className={"speaker-textbox"}>
-                            {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
-
-                        </div>
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a> 
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={"speaker-container-2"}>
-                        <div className={"speaker-imagebox-main"}>
-                            <a href='https://celo.org'>
+                        <a href='https://celo.org' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={celo} alt="" />
-                            </a>
-                        </div>
-                        <div className={"speaker-textbox"}>
-                            {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
-
-                        </div>
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={"speaker-container-2"}>
-                        <div className={"speaker-imagebox-main"}>
-                            <a href='https://filecoin.io'>
+                        <a href='https://filecoin.io' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={filecoin} alt="" />
-                            </a>
-                        </div>
-                        <div className={"speaker-textbox"}>
-                            {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
-
-                        </div>
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
                     </div>
                 </SwiperSlide>
-
+            </Swiper>
+            <Swiper
+                updateOnWindowResize
+                autoplay={{ delay: 3000 }}
+                speed={1000}
+                slidesPerView={1}
+                spaceBetween={30}
+                breakpoints={{ 768: { slidesPerView: 3 }, 1024: { slidesPerView: 4 }, 1260: { slidesPerView: 5 }, 1600: { slidesPerView: 6 } }}
+            >
+                <SwiperSlide>
+                    <div className={"speaker-container-1"}>
+                        <a href='https://www.interviewcake.com/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                <img className={"speaker-image-2"} src={interviewcake} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={"speaker-container-1"}>
+                        <a href='https://www.clerky.com/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                <img className={"speaker-image-2"} src={clerky} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={"speaker-container-1"}>
+                        <a href='https://icons8.com/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                <img className={"speaker-image-2"} src={icons8} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </>
     )

@@ -7,6 +7,9 @@
 }
 .speaker-container {
   text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
 }
 
 .speaker-name {
@@ -31,9 +34,9 @@
   margin-top: 30px;
 }
 .speaker-image-2{
-  width:70%;
+  width:85%;
   margin-top: 50px;
-  margin-left: -30%;
+  margin-left: -35%;
 }
 .main-container-speaker{
   padding-left: 150px;
