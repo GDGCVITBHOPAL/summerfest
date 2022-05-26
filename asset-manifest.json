@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.446bbd06.chunk.css",
-    "main.js": "./static/js/main.932a30c5.chunk.js",
-    "main.js.map": "./static/js/main.932a30c5.chunk.js.map",
+    "main.css": "./static/css/main.2e1b39bf.chunk.css",
+    "main.js": "./static/js/main.bf355eea.chunk.js",
+    "main.js.map": "./static/js/main.bf355eea.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b3f80fb0.js",
     "runtime-main.js.map": "./static/js/runtime-main.b3f80fb0.js.map",
     "static/css/2.fb3a51ac.chunk.css": "./static/css/2.fb3a51ac.chunk.css",
-    "static/js/2.3534a8b2.chunk.js": "./static/js/2.3534a8b2.chunk.js",
-    "static/js/2.3534a8b2.chunk.js.map": "./static/js/2.3534a8b2.chunk.js.map",
+    "static/js/2.eaa60d0c.chunk.js": "./static/js/2.eaa60d0c.chunk.js",
+    "static/js/2.eaa60d0c.chunk.js.map": "./static/js/2.eaa60d0c.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.057b2c7298a2596293c4ccc4c9b29268.js": "./precache-manifest.057b2c7298a2596293c4ccc4c9b29268.js",
+    "precache-manifest.08014cc352fe2c1559811bf8072cd51e.js": "./precache-manifest.08014cc352fe2c1559811bf8072cd51e.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.fb3a51ac.chunk.css.map": "./static/css/2.fb3a51ac.chunk.css.map",
-    "static/css/main.446bbd06.chunk.css.map": "./static/css/main.446bbd06.chunk.css.map",
-    "static/js/2.3534a8b2.chunk.js.LICENSE.txt": "./static/js/2.3534a8b2.chunk.js.LICENSE.txt",
+    "static/css/main.2e1b39bf.chunk.css.map": "./static/css/main.2e1b39bf.chunk.css.map",
+    "static/js/2.eaa60d0c.chunk.js.LICENSE.txt": "./static/js/2.eaa60d0c.chunk.js.LICENSE.txt",
     "static/media/Arcana1.png": "./static/media/Arcana1.4f4da520.png",
     "static/media/AtCompany.png": "./static/media/AtCompany.9a0d08db.png",
     "static/media/Icons8.png": "./static/media/Icons8.977c878b.png",
@@ -25,6 +25,7 @@
     "static/media/game.svg": "./static/media/game.392fa272.svg",
     "static/media/interviewcake.png": "./static/media/interviewcake.f7f00d0e.png",
     "static/media/machine.svg": "./static/media/machine.41a0a7a3.svg",
+    "static/media/moreficient.png": "./static/media/moreficient.7abdb358.png",
     "static/media/navbar-logo.png": "./static/media/navbar-logo.f1daabb2.png",
     "static/media/open.svg": "./static/media/open.efde3002.svg",
     "static/media/transition.svg": "./static/media/transition.3efdc472.svg",
@@ -37,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3f80fb0.js",
     "static/css/2.fb3a51ac.chunk.css",
-    "static/js/2.3534a8b2.chunk.js",
-    "static/css/main.446bbd06.chunk.css",
-    "static/js/main.932a30c5.chunk.js"
+    "static/js/2.eaa60d0c.chunk.js",
+    "static/css/main.2e1b39bf.chunk.css",
+    "static/js/main.bf355eea.chunk.js"
   ]
 }
