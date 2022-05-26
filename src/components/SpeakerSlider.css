@@ -11,7 +11,9 @@
   flex-direction: row;
   align-items: center; */
 }
-
+#extra-large{
+  width:70%;
+}
 .speaker-name {
   font-weight: 400;
   font-size: 18px;
@@ -89,7 +91,7 @@
   }
   .speaker-container-2{
     position: relative;
-    left: 210%;
+    left: 175%;
   }
   
 }
@@ -130,6 +132,8 @@
   .speaker-image-2{
     margin-left: 0px;
   }
-  
+  #extra-large{
+    width:"80%";
+  }
 }
 

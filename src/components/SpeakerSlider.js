@@ -12,6 +12,8 @@ import celo from "../graphics/celo.png"
 import interviewcake from "../graphics/interviewcake.png"
 import icons8 from "../graphics/Icons8.png"
 import clerky from "../graphics/clerky.jpg"
+import arcana from "../graphics/Arcana1.png"
+import atCompany from "../graphics/AtCompany.png"
 
 // Import Swiper styles
 import 'swiper/swiper.scss';
@@ -22,24 +24,6 @@ import './SpeakerSlider.css';
 SwiperCore.use([A11y, Autoplay]);
 
 function SpeakerSlider() {
-
-    // //for changing CSS of active slides in slider
-    // const [first, changeFirst] = useState(1);
-    // const [last, changeLast] = useState(1);
-    //
-    // const changeCSS = e => {
-    //     changeFirst(e.realIndex);
-    //     changeLast((e.activeIndex-1)%16);
-    // }
-    //
-    // const checkBetween = index => {
-    //     if (index > first && index < last) return true;
-    //     if (first > last) {
-    //         if (index > first) return true;
-    //         if (index < first && index < last) return true;
-    //     }
-    //     return false;
-    // }
 
     return (
         <>
@@ -88,12 +72,10 @@ function SpeakerSlider() {
                 speed={1000}
                 slidesPerView={1}
                 spaceBetween={30}
-                breakpoints={{ 768: { slidesPerView: 3 }, 1024: { slidesPerView: 4 }, 1260: { slidesPerView: 5 }, 1600: { slidesPerView: 6 } }}
-            //onSlideChange={changeCSS}
-
+                breakpoints={{ 768: { slidesPerView: 3 }, 1024: { slidesPerView: 4 }, 1260: { slidesPerView: 5 }, 1600: { slidesPerView: 6 } }}                //onSlideChange={changeCSS}
             >
 
-                <SwiperSlide>
+                <SwiperSlide style={{marginRight:"-80px"}}>
                     <div className={"speaker-container-2"}>
                         <a href='https://tezos.com' style={{"cursor":"pointer"}}>
                             <div className={"speaker-imagebox-main"}>
@@ -129,6 +111,18 @@ function SpeakerSlider() {
                         </a>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className={"speaker-container-2"}>
+                        <a href='https://arcana.network/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                <img id="extra-large" className={"speaker-image-2"} src={arcana} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
             </Swiper>
             <Swiper
                 updateOnWindowResize
@@ -139,7 +133,7 @@ function SpeakerSlider() {
                 breakpoints={{ 768: { slidesPerView: 3 }, 1024: { slidesPerView: 4 }, 1260: { slidesPerView: 5 }, 1600: { slidesPerView: 6 } }}
             >
                 <SwiperSlide>
-                    <div className={"speaker-container-1"}>
+                    <div className={"speaker-container-2"}>
                         <a href='https://www.interviewcake.com/' style={{"cursor":"pointer"}}>
                             <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={interviewcake} alt="" />
@@ -151,7 +145,7 @@ function SpeakerSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={"speaker-container-1"}>
+                    <div className={"speaker-container-2"}>
                         <a href='https://www.clerky.com/' style={{"cursor":"pointer"}}>
                             <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={clerky} alt="" />
@@ -163,10 +157,22 @@ function SpeakerSlider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className={"speaker-container-1"}>
+                    <div className={"speaker-container-2"}>
                         <a href='https://icons8.com/' style={{"cursor":"pointer"}}>
                             <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={icons8} alt="" />
+                            </div>
+                            <div className={"speaker-textbox"}>
+                                {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
+                            </div>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={"speaker-container-2"}>
+                        <a href='https://atsign.com/' style={{"cursor":"pointer"}}>
+                            <div className={"speaker-imagebox-main"}>
+                                <img className={"speaker-image-2 extra-large"}  src={atCompany} alt="" style={{padding:"10px 5px", background:'white'}} />
                             </div>
                             <div className={"speaker-textbox"}>
                                 {/* <h1 className={"speaker-name"}>Brian Li</h1> */}
