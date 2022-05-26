@@ -51,7 +51,10 @@
   position: relative;
   left: 160%;
 }
-
+.speaker-container-3{
+  position: relative;
+  left: 180%;
+}
 .speaker-title {
   margin-top: 5px;
   font-size: 14px;
@@ -93,7 +96,10 @@
     position: relative;
     left: 175%;
   }
-  
+  .speaker-container-3{
+    position: relative;
+    left: 230%;
+  }
 }
 
 @media (max-width:1260px) {
@@ -105,7 +111,10 @@
     position: relative;
     left: 90%;
   }
-  
+  .speaker-container-3{
+    position: relative;
+    left: 100%;
+  }
 }
 
 @media (max-width:1024px) {
@@ -117,7 +126,10 @@
     position: relative;
     left: 50%;
   }
-  
+  .speaker-container-3{
+    position: relative;
+    left: 60%;
+  }
 }
 
 @media (max-width:768px) {
@@ -126,6 +138,10 @@
     left: 0%;
   }
   .speaker-container-2{
+    position: relative;
+    left: 0%;
+  }
+  .speaker-container-3{
     position: relative;
     left: 0%;
   }
