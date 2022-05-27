@@ -6,7 +6,8 @@ const TimeBox = ({ children }) => {
 const Timer = ({ targetTime }) => {
   const targetCountdownTime = new Date(targetTime).getTime();
   const getSeconds = () => {
-    return parseInt((targetCountdownTime - new Date().getTime()) / 1000);
+    const sec = parseInt((targetCountdownTime - new Date().getTime()) / 1000);
+    return (sec<=0)?0:sec;
   };
   const [countDown, setCountDown] = useState(getSeconds());
 

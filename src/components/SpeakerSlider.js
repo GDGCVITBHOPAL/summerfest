@@ -148,7 +148,7 @@ function SpeakerSlider() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={"speaker-container-2"}>
-                        <a href='' target="_blank" rel="noopener noreferrer" style={{"cursor":"pointer"}}>
+                        <a href='https://moreficent.com/' target="_blank" rel="noopener noreferrer" style={{"cursor":"pointer"}}>
                             <div className={"speaker-imagebox-main"}>
                                 <img className={"speaker-image-2"} src={moreficient} alt="" style={{"cursor":"pointer", width:"160px", height:"160px"}}/>
                             </div>

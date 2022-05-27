@@ -41,8 +41,10 @@ function HomePage(props) {
         </div>
         {/* </a> */}
         <div className="home-timer">
-          <h2>Event Starts in </h2>
-          <Timer targetTime="2022-05-27T09:00:00+05:30" />
+          <h2>
+            Event Starts in
+          </h2>
+          <Timer targetTime="2022-05-27T18:00:00+05:30" />
         </div>
       </div>
     </div>
